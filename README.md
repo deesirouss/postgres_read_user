@@ -9,6 +9,6 @@ To grant read permission on all databases of Aurora DB to read_user
  - Host/Endpoint name
  - Admin User name
  - Admin Password
- - User to grant read permission
+ - User to grant read permission <br />
 If all grant are success then you will get 0 as exit message 
 Good luck :)
