@@ -1,5 +1,6 @@
 # postgres_read_user
 To grant read permission on all databases of Aurora DB to read_user
+Make sure you have already created a user for which you want to grant read only permission.
 ### Clone it
 ### Give execute permission to the script
 > chmod +x postgres.sh
