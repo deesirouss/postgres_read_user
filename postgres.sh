@@ -3,7 +3,7 @@ echo "Granting permission of all databases in Aurora DB to read_user !!"
 # host to connect with
 read -p "Enter your host/endpoint: " host
 read -p "Enter admin_user name: " admin_user
-read -p "Enter user password: " PASSWORD
+read -sp "Enter user password: " PASSWORD
 export PGPASSWORD=${PASSWORD}
 echo "To grant read permissions on all databases"
 echo
